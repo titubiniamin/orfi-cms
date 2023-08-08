@@ -1,0 +1,66 @@
+ul, #myUL {
+    list-style-type: none;
+  }
+
+#myUL {
+    margin: 0;
+    padding: 0;
+}
+
+#myUL li{
+    padding: 6px;
+    border-left: 1px solid black;
+    /* border-bottom: 1px solid black; */
+}
+
+
+#myUL .caret {
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+  }
+
+#myUL .caret::before {
+    content: "\25B6";
+    font-family: '-apple-system' !important;
+    color: black;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+#myUL .caret-down::before {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg);
+  }
+
+#myUL .nested {
+    display: none;
+    margin-left: -33px;
+}
+
+#myUL .active {
+    display: block;
+  }
+
+.crud_button .fas,.add_question_answer_button .fas {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 12px !important;
+}
+
+.crud_button  {
+    float: right;
+}
+
+.add_question_answer_button {
+    float: right;
+}
+
+.crud_button button,.add_question_answer_button button {
+    padding: 5px !important;
+}
+
+
