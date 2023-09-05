@@ -2,7 +2,7 @@
 
 ### Clone the repository
 
-    git clone https://github.com/TarikulHasanShuvo/orfi-cms.git
+    git clone https://github.com/titubiniamin/orfi-cms.git
 
 ### Switch to the repo folder
 
